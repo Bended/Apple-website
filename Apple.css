@@ -1,0 +1,404 @@
+body{
+	min-width: 320px;
+	margin: 0px;
+	padding:0px;
+	display: block;
+	font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+}
+
+h1, h2, h3, h4, h5{
+	color: #111;
+}
+
+ul, ol, li, h1, h2, h3, h4, h5{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*==============================    MENU     ==============================*/
+.global-menu{
+	background-color: rgba(0,0,0,0.8);
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position:fixed;
+	z-index: 9999;
+	display: block;
+	margin: 0px;
+	height: 44px;
+	font-size: 14px;
+	color: white;
+}
+
+.menu-content{
+	box-sizing: content-box;
+	font-size: 1em;
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	text-align: inherit;
+	margin: auto;
+	max-width: 1200px;
+	padding: 0px;
+	position: relative;
+	border: none;
+	text-align: center;
+	letter-spacing: normal;
+}
+
+.apple-logo{
+	height: 19px;
+	width: 16px;
+}
+
+.apple-search{
+	height: 19px;
+	width: 19px;	
+}
+
+.menu-list{
+	margin: 0px;
+	width: auto;
+	height: 44px;
+	text-align: justify;
+	list-style: none;
+	text-align: center;
+}
+
+.menu-item{
+	box-sizing: content-box;
+	margin-right: 3.5%;
+	margin-left: 2.7%;
+	padding: 12px 0px 12px 0px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	vertical-align: top;
+	cursor: pointer;
+	text-decoration:none;
+	color: white;
+}
+
+.menu-item a{
+	color: white;
+	display: inline-block;
+	width: inherit;
+}
+
+/*===============================   STRIPE   ============================*/
+
+.main-stripe{
+	height: 1169px;
+	padding-top: 44px;
+}
+
+.stripe1{
+	border: none;
+	height: 580px;
+	width: 100%;
+	background-color: #fafafa;
+	top: 48px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.stripe2{
+	border: none;
+	height: 580px;
+	width: 100%;
+	background-color: #fafafa;
+	cursor: pointer;
+}
+
+.title{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	display: block;
+	z-index: 2;
+	flex-grow: 0;
+}
+
+.headline{
+	padding-top: 82px;
+	font-size: 56px;
+	font-weight: 600;
+	letter-spacing: -2px;
+}
+
+.headline2{
+	padding-top: 42px;
+	font-size: 56px;
+	font-weight: 600;
+	letter-spacing: -2px;
+	}
+
+.subtitle{
+	margin-top: 8px;
+	font-size: 27px;
+	line-height: 1.14815;
+	font-weight: 400;
+	letter-spacing: 0;
+
+}
+
+.image-head1{
+	position: absolute;
+	left: calc(50% - 455px);
+	top: 274px;
+	width: 909px;
+	height: 194px;
+	padding: 0px;
+	margin: 0px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("https://images.apple.com/v/home/dn/images/heroes/iphone-x/iphone_x_large.jpg");
+}
+
+
+.image-head2{
+	position: relative;
+	left: calc(50% - 346px);
+	width: 692px;
+	height: 394px;
+	padding: 0px;
+	margin: 0px;
+	background-size: 692px 394px;
+	background-repeat: no-repeat;
+	background-image: url("https://images.apple.com/v/home/dn/images/heroes/holiday/holiday_large.png");
+	display: block;
+	bottom: -30px;
+}
+
+section{
+	width: 100%;
+	text-align: left;
+}
+
+.stripe3{
+	width: 100%;
+	padding-left: 6px;
+	padding-top: 6px;
+	padding-right: 6px;
+	background-color: #fff;
+}
+
+div .box{
+	width: calc(50% - 24px);
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	height: 598px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}
+
+a{
+	position: relative;
+	overflow: hidden;
+	z-index: 999;
+}
+
+.box2{
+	background-color: #f9f0eb;
+}
+
+.box2 .iphone{
+	left: calc(50% - 208px);
+	width: 415px;
+	height: 416px;
+	position: absolute;
+	background-image: url("https://images.apple.com/v/home/dn/images/promos/iphone_8_large.jpg");
+	bottom: -11px;
+}
+
+.box1{
+	background-position: 50%;
+	background-image: url(https://images.apple.com/v/home/dn/images/promos/holiday_film_large.jpg);
+}
+
+.box3{
+	background-color: #fafafa;
+}
+
+.box4{
+	background-color: #fafafa;
+}
+
+.iwatch{
+	top:75px;
+	left: calc(50% - 316px);
+	width: 546px;
+	height: 274px;
+	background-image: url(https://images.apple.com/v/home/dn/images/promos/watch_series_3_large.jpg);
+	text-align: center;
+	position: relative;
+}
+
+.iwatch2{
+	margin-top:56px;
+	margin-left:auto;
+	margin-right: auto; 
+	left: 0px;
+	width: 142px;
+	height: 54px;
+	background-image: url(https://images.apple.com/v/home/dn/images/logos/watch_series_3_promo_large.png);
+	text-align: center;
+	display: block;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+
+.macbook{
+	left: calc(50% - 126px);
+	width: 251px;
+	height: 420px;
+	display: block;
+	bottom: -162px;
+	background-image: url("https://images.apple.com/v/home/dn/images/promos/macbook_large.jpg");
+	text-align: center;
+	position: relative;
+}
+
+.box .titre4-wh{
+	position: absolute;
+	width: 100%;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-top:52px;
+	display: inline-block;
+	max-width: 335px;
+	text-align: center;
+	color: white;
+	left: calc(50% - 176px);
+	}
+
+.box .titre4-bk{
+position: absolute;
+width: 100%;
+font-size: 40px;
+font-weight: 600;
+line-height: 1.1;
+margin-top:52px;
+display: inline-block;
+max-width: 430px;
+text-align: center;
+left: calc(50% - 216px);
+}
+
+
+.box h5{
+	position: absolute;
+	width: 100%;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2381;
+	display: inline-block;
+	max-width: 430px;
+	text-align: center;
+	left: calc(50% - 216px);
+}
+
+.t5-wh{
+	color: white;
+	padding-top: 147px;
+}
+
+.t5-bk{
+	color: black;
+	padding-top: 100px;
+}
+
+
+footer{
+	width: 100%;
+	height: 376px;
+	box-sizing: content-box;
+	margin-top: 6px;
+	padding: 0px;
+	pointer-events: auto;
+	letter-spacing: normal;
+	background-color: #f2f2f2;
+	}
+
+div .content{
+	max-width: 980px;
+	height: 376.200;
+	margin: 0 auto;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+nav{
+	padding-top: 40px;
+	font-size: 11px;
+	font-weight: 400px;
+	z-index: 1;
+	position: relative;
+
+}
+
+.columns{
+	display: inline-table;
+	width: 140px;
+	border-right: 10px;
+	text-decoration: none;
+	padding-right: 50px
+}
+
+nav h3{
+	font-size: 11px;
+	font-style: bold;
+	color: #555;
+	text-decoration: none;
+}
+
+nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 120px;
+    color: #555;
+}
+
+li a {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    width: 120px;
+    color: #555;
+    padding: 2px;
+}
+
+
+@media screen and (max-width: 735px) {
+	.image-head1{
+	position: absolute;
+	left: calc(50% - 83px);
+	top: 223px;
+	width: 167px;
+	height: 333px;
+	padding: 0px;
+	margin: 0px;
+	background-size: 167px 333px;
+	background-repeat: no-repeat;
+	background-image: url("https://images.apple.com/v/home/dn/images/heroes/iphone-x/iphone_x_small.jpg");
+	}
+	
+	.image-head2{
+		left: calc(50% - 157px);
+		width: 314px;
+		height: 219px;
+		padding: 0px;
+		margin: 0px;
+		background-size: 317px 206px;
+		background-image: url("https://images.apple.com/v/home/dn/images/heroes/holiday/holiday_large.png");
+		bottom: -87px;
+	}
+}
